@@ -19,6 +19,7 @@ class User extends Migration
             $table->integer('score');
             $table->integer('opponent_score');
             $table->boolean('won');
+            $table->integer('games_won');
             $table->timestamps();
         });
     }

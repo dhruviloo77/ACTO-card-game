@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cf14086919a839fe740e00554e4baff6",
+    "content-hash": "7bbe3b5ecd9e90d93ee284dfe8a1b18b",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2909,6 +2909,64 @@
                 }
             ],
             "time": "2021-09-25T23:10:38+00:00"
+        },
+        {
+            "name": "spatie/array-functions",
+            "version": "1.9.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/array-functions.git",
+                "reference": "a5c418357960bd1a4575ed68ebde44b7deff0ebe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/array-functions/zipball/a5c418357960bd1a4575ed68ebde44b7deff0ebe",
+                "reference": "a5c418357960bd1a4575ed68ebde44b7deff0ebe",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.4"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/array_functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://murze.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Some handy array helpers",
+            "homepage": "https://github.com/spatie/array-functions",
+            "keywords": [
+                "array",
+                "handy",
+                "helper",
+                "spatie"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/array-functions/issues",
+                "source": "https://github.com/spatie/array-functions/tree/1.9.4"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/spatie",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-04-03T18:04:19+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

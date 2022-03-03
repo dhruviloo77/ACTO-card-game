@@ -17,3 +17,5 @@ use App\Http\Controllers\CardController;
 
 
 Route::get('/',[CardController::class, 'index']);
+
+Route::post('/result',[UserController::class, 'store']);
